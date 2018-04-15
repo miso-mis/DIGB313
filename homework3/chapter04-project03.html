@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter04-project03.css" />
+</head>
+<body>
+    <form method="get" action="www.randyconnolly.com/tests/process.php">
+          
+    <fieldset>
+     <legend id="pd"> Photo Details  </legend> 
+      <p>
+        <label> Title </label> <br>    
+        <input id="ti" type:"text"name:"title"/>
+      </p>
+      <p>
+        <label> Description </label> <br>   
+        <input id="des" type:"text"name:"description"/>
+      </p>
+      <p>
+        <label> 
+          Continent</label> <br>    
+        <select name="continent">
+            <option>Choose a continent</option>
+            <option>North America</option>
+          </select>
+      </p>
+      <p>
+        <label> Country </label> <br>    
+        <select name="country">
+            <option>Choose a country</option>
+            <option>Canada</option>
+          </select>
+      </p>
+    <p>
+        <label> City </label> <br>   
+        <input id="city" type:"text"name:"city"/>
+      </p>
+          
+        <p>
+        <label> I accept the software license </label>
+        <input type="checkbox" nane"accept">
+        </p>
+    <p>
+    <label> Rate this photo: </label> <br>
+    <input id="rate" type="number" min:"1" max"5" name="rate">
+    </p>
+    <p>
+    <label> Color Collection: </label> <br>
+    <input type="color" name="color">
+    </p>
+      
+    <div id="copyright">
+    Copyright?<br>
+    <input type="radio" name=copyright value="1"> All rights reserved<br/>
+    <input type="radio" name=copyright value="2"> Creative Commens<br/>
+    </div>
+   <div id="cc">
+    Creative Commons Types<br>
+    <input type="checkbox" name=cc value="1">Attribution<br>
+    <input type="checkbox" name=cc value="2"> Noncornmercial<br> 
+    <input type="checkbox" name=cc value="3"> No Derivative Works <br>
+    <input type="checkbox" name=cc value="2"> Share Alike<br> 
+    </div>
+    <div id="date">
+        <label>Date Taken:</label><br>
+        <input type="date" name="date"><br>
+        <label>Time Taken:</label><br>
+        <input type="time" name="time">
+    </div>
+    <p class="sub">
+    <input type="submit"/>
+    <input type="reset" name="clearform"/>
+    </p>
+    </fieldset>
+   </form>
+</body>
+</html>
