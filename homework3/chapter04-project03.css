@@ -7,7 +7,9 @@ body {
    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
    font-size: 100%;
     width: 800px;
-    padding: 30px;
+    padding: 40px;
+    margin: 0px 150px;
+    
 }
 #pd { font-size:150%; 
     text-align: center;
@@ -21,8 +23,24 @@ body {
 fieldset {border:dashed 1px}
 p, div {padding: 10px 20px;}
 div {border:dotted 1px;
-     width:300px;
-     margin:10px;
+     width:200px;
+     margin: 10px;
      float:right;}
 input { border:dotted 1px }
 .sub { text-align: center; }
+input[type="submit"] 
+                {border: 2px solid #003424;
+				background-color: dimgray;
+				color: white;
+				border-radius: 5px;
+				padding: 5px;
+				margin-top: 10px;
+                width:100px}
+input[type="reset"] 
+                {border: 2px solid #003424;
+				background-color: dimgray;
+				color: white;
+				border-radius: 5px;
+				padding: 5px;
+				margin: 10px;
+                width:100px}
