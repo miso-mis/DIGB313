@@ -19,7 +19,9 @@
         <label> Description </label> <br>   
         <input id="des" type:"text"name:"description"/>
       </p>
-      <p>
+   <table>
+    <tr>
+     <td><p>
         <label> 
           Continent</label> <br>    
         <select name="continent">
@@ -38,11 +40,27 @@
         <label> City </label> <br>   
         <input id="city" type:"text"name:"city"/>
       </p>
-          
-        <p>
+           <p>
         <label> I accept the software license </label>
         <input type="checkbox" nane"accept">
         </p>
+         </td> 
+       <td>  <div id="copyright">
+    Copyright?<br>
+    <input type="radio" name=copyright value="1"> All rights reserved<br/>
+    <input type="radio" name=copyright value="2"> Creative Commens<br/>
+    </div>
+   <div id="cc">
+    Creative Commons Types<br>
+    <input type="checkbox" name=cc value="1"> Attribution<br>
+    <input type="checkbox" name=cc value="2"> Noncornmercial<br> 
+    <input type="checkbox" name=cc value="3"> No Derivative Works <br>
+    <input type="checkbox" name=cc value="2"> Share Alike<br> 
+    </div>
+        </td> 
+       </tr>
+<tr>
+    <td>
     <p>
     <label> Rate this photo: </label> <br>
     <input id="rate" type="number" min:"1" max"5" name="rate">
@@ -51,25 +69,17 @@
     <label> Color Collection: </label> <br>
     <input type="color" name="color">
     </p>
-      
-    <div id="copyright">
-    Copyright?<br>
-    <input type="radio" name=copyright value="1"> All rights reserved<br/>
-    <input type="radio" name=copyright value="2"> Creative Commens<br/>
-    </div>
-   <div id="cc">
-    Creative Commons Types<br>
-    <input type="checkbox" name=cc value="1">Attribution<br>
-    <input type="checkbox" name=cc value="2"> Noncornmercial<br> 
-    <input type="checkbox" name=cc value="3"> No Derivative Works <br>
-    <input type="checkbox" name=cc value="2"> Share Alike<br> 
-    </div>
+      </td>
+    <td>
     <div id="date">
         <label>Date Taken:</label><br>
         <input type="date" name="date"><br>
         <label>Time Taken:</label><br>
         <input type="time" name="time">
     </div>
+         </td>
+    </tr>
+ </table>
     <p class="sub">
     <input type="submit"/>
     <input type="reset" name="clearform"/>
