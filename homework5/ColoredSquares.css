@@ -1,0 +1,76 @@
+body {
+  margin: 10px; 
+  padding:10px;}
+
+
+h1 {
+  height: 40px;
+  width:800px;
+  text-align: center
+}
+
+#box {
+    height: 500px;
+    width: 800px;
+    padding: 10px;
+    background-color: lightsteelblue;
+    border-color:dimgray;
+    border: solid;
+    
+}
+#squares1 {
+    height: 50px;
+    width: 50px;
+    background-color: dodgerblue;
+    border: solid;
+    border-color: darkgray;
+}
+#squares2 {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border: solid;
+    border-color: darkgray;
+}
+#squares3 {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: solid;
+    border-color: darkgray;
+}
+#squares4 {
+    height: 50px;
+    width: 50px;
+    background-color: hotpink;
+    border: solid;
+    border-color: darkgray;
+}
+#squares5 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: solid;
+    border-color: darkgray;
+}
+#squares6 {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: solid;
+    border-color: darkgray;
+}
+.add{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+     margin: 20px 10px;
+    background-color: cornflowerblue;
+}
+.change{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    margin: 20px 10px;
+    background-color: cornflowerblue;
+}
