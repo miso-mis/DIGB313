@@ -5,61 +5,26 @@ body {
 
 h1 {
   height: 40px;
-  width:800px;
+  width:700px;
   text-align: center
 }
 
-#box {
-    height: 500px;
-    width: 800px;
+#squarearea {
+    height: 300px;
+    width: 700px;
     padding: 10px;
     background-color: lightsteelblue;
     border-color:dimgray;
     border: solid;
-    
+    position: relative;
 }
-#squares1 {
+.square {
     height: 50px;
     width: 50px;
-    background-color: dodgerblue;
     border: solid;
-    border-color: darkgray;
+    position: absolute;
 }
-#squares2 {
-    height: 50px;
-    width: 50px;
-    background-color: green;
-    border: solid;
-    border-color: darkgray;
-}
-#squares3 {
-    height: 50px;
-    width: 50px;
-    background-color: yellow;
-    border: solid;
-    border-color: darkgray;
-}
-#squares4 {
-    height: 50px;
-    width: 50px;
-    background-color: hotpink;
-    border: solid;
-    border-color: darkgray;
-}
-#squares5 {
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    border: solid;
-    border-color: darkgray;
-}
-#squares6 {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-    border: solid;
-    border-color: darkgray;
-}
+
 .add{
     width: 150px;
     height: 30px;
@@ -67,7 +32,7 @@ h1 {
      margin: 20px 10px;
     background-color: cornflowerblue;
 }
-.change{
+.colors{
     width: 150px;
     height: 30px;
     font-size: 15px;
