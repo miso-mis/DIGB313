@@ -1,0 +1,41 @@
+body {
+  margin: 10px; 
+  padding:10px;
+}
+
+
+h1 {
+  height: 40px;
+  width:700px;
+  text-align: center
+}
+
+#squarearea {
+    height: 300px;
+    width: 700px;
+    padding: 10px;
+    background-color: lightsteelblue;
+    border-color:dimgray;
+    border: solid;
+    position: relative;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    border: solid;
+    position: absolute;
+}
+.add{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+     margin: 20px 10px;
+    background-color: cornflowerblue;
+}
+.colors{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    margin: 20px 10px;
+    background-color: cornflowerblue;
+}
