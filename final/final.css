@@ -1,0 +1,36 @@
+#title {
+    height: 90px;
+    width: 400px;
+    text-align: center;
+    border: solid;
+    background-color: paleturquoise;
+}
+
+#travel1 {
+    padding: 0px 10px 20px 10px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: lightcyan;
+     border: solid;
+    border-color: skyblue
+}
+
+#travel2 {
+    padding: 0px 10px 20px 10px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: lightcyan;
+     border: solid;
+    border-color: skyblue
+}
+#btn {
+    height: 40px;
+    width: 60px;
+}
+
+#map {
+  height: 400px;
+  width: 70%;
+ }
