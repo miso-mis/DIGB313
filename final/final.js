@@ -3,7 +3,7 @@ var btn=document.getElementById("btn");
 
 btn.addEventListener("click",function(){
 var ourRequest = new XMLHttpRequest();
-ourRequest.open('GET','https://miso-mis.github.io/DIGB313/fianl.json')
+ourRequest.open('GET','https://miso-mis.github.io/DIGB313/final/final.json')
 ourRequest.onlode=function(){
     var ourData = JSON.parse(ourRequest.responseText);
     renderHTML(ourData);
