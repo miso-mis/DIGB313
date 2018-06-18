@@ -1,0 +1,27 @@
+[
+    {
+        "name":"아름다운",
+        "destination": "이탈리아",
+        "city": "피렌체"
+    },
+      {
+        "name":"멋있는",
+        "destination": "프랑스",
+        "city": "파리"
+    },
+      {
+        "name":"야경이 멋진",
+        "destination": "헝가리",
+        "city": "부다페스트"
+    },
+      {
+        "name":"가고싶었던",
+        "destination": "크로아티아",
+        "city": "플리트비체"
+    },
+      {
+        "name":"자연이 선물한",
+        "destination": "스위스",
+        "city": "체르마트"
+    }
+]
